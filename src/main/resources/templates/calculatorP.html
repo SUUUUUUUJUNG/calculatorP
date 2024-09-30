@@ -1,10 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Calculator</title>
+    <!-- CSS 파일 연결 -->
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <h2>calculatorP</h2>
+<div class="calculator">
+    <input type="text" id="screen" class="calculator-screen" disabled />
+
+    <div class="calculator-buttons">
+        <button class="btn" value="7">7</button>
+        <button class="btn" value="8">8</button>
+        <button class="btn" value="9">9</button>
+        <button class="btn" value="/">÷</button>
+
+        <button class="btn" value="4">4</button>
+        <button class="btn" value="5">5</button>
+        <button class="btn" value="6">6</button>
+        <button class="btn" value="*">×</button>
+
+        <button class="btn" value="1">1</button>
+        <button class="btn" value="2">2</button>
+        <button class="btn" value="3">3</button>
+        <button class="btn" value="-">−</button>
+
+        <button class="btn" value="0">0</button>
+        <button class="btn" value=".">.</button>
+        <button class="btn" value="=">=</button>
+        <button class="btn" value="+">+</button>
+
+        <button class="btn" value="clear">C</button>
+    </div>
+</div>
+
+<!-- JavaScript 파일 연결 -->
+<script src="/script.js"></script>
 </body>
 </html>
